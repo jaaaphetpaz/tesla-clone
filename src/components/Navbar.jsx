@@ -32,7 +32,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="lg:hidden">
-        <button className="inline-flex items-center rounded-md py-2 px-4 text-sm font-medium bg-black/5 shadow-sm hover:bg-black/10">
+        <button className="inline-flex items-center rounded-md py-2 px-4 text-sm font-bold bg-black/5 shadow-sm hover:bg-black/10">
           Menu
         </button>
       </div>
