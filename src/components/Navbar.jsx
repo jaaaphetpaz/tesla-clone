@@ -1,4 +1,5 @@
 import React from "react";
+import { TfiClose } from "react-icons/tfi";
 
 const Navbar = () => {
   return (
@@ -68,6 +69,70 @@ const Navbar = () => {
         <button className="inline-flex items-center rounded-md py-2 px-4 text-sm font-bold bg-black/5 shadow-sm hover:bg-black/10">
           Menu
         </button>
+      </div>
+      <div className="bg-white absolute top-0 right-0 w-80 h-full z-10">
+        <div className="flex justify-end pr-8 pt-8">
+          <TfiClose className="rounded p-1 hover:bg-black/5 " size={28} />
+        </div>
+        <ul className="pt-8 px-6">
+          <a href="https://tesla.com/models">
+            <li className="py-3 pl-3 hover:round hover:bg-black/5">Model S</li>
+          </a>
+          <a href="https://tesla.com/model3">
+            <li className="py-3 pl-3 hover:round hover:bg-black/5">Model 3</li>
+          </a>
+          <a href="https://tesla.com/modelx">
+            <li className="py-3 pl-3 hover:round hover:bg-black/5">Model X</li>
+          </a>
+          <a href="https://tesla.com/modely">
+            <li className="py-3 pl-3 hover:round hover:bg-black/5">Model Y</li>
+          </a>
+          <a href="https://tesla.com/solarroof">
+            <li className="py-3 pl-3 hover:round hover:bg-black/5">
+              Solar Roof
+            </li>
+          </a>
+          <a href="https://tesla.com/solarpanels">
+            <li className="py-3 pl-3 hover:round hover:bg-black/5">
+              Solar Panels
+            </li>
+          </a>
+          <a href="https://tesla.com/powerwall">
+            <li className="py-3 pl-3 hover:round hover:bg-black/5">
+              Powerwall
+            </li>
+          </a>
+          <a href="https://tesla.com/inventory/new/m3">
+            <li className="py-3 pl-3 hover:round hover:bg-black/5">
+              Existing Inventory
+            </li>
+          </a>
+          <a href="https://tesla.com/inventory/used/m3">
+            <li className="py-3 pl-3 hover:round hover:bg-black/5">
+              Used inventory
+            </li>
+          </a>
+          <a href="https://tesla.com/tradein">
+            <li className="py-3 pl-3 hover:round hover:bg-black/5">Trade-In</li>
+          </a>
+          <a href="https://tesla.com/drive">
+            <li className="py-3 pl-3 hover:round hover:bg-black/5">
+              Demo Drive
+            </li>
+          </a>
+          <a href="https://tesla.com/findus">
+            <li className="py-3 pl-3 hover:round hover:bg-black/5">Find Us</li>
+          </a>
+          <a href="https://tesla.com/support">
+            <li className="py-3 pl-3 hover:round hover:bg-black/5">Support</li>
+          </a>
+          <a href="https://shop.tesla.com/">
+            <li className="py-3 pl-3 hover:round hover:bg-black/5">Shop</li>
+          </a>
+          <a href="https://tesla.com/teslaaccount">
+            <li className="py-3 pl-3 hover:round hover:bg-black/5">Account</li>
+          </a>
+        </ul>
       </div>
     </div>
   );
