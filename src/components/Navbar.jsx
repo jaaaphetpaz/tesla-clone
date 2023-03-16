@@ -12,16 +12,41 @@ const Navbar = () => {
       </div>
       <div className="hidden lg:inline">
         <ul className="flex justify-center hover:cursor-pointer">
-          <li className="py-1 px-3 hover:rounded hover:bg-black/5">Model S</li>
-          <li className="py-1 px-3 hover:rounded hover:bg-black/5">Model 3</li>
-          <li className="py-1 px-3 hover:rounded hover:bg-black/5">Model X</li>
-          <li className="py-1 px-3 hover:rounded hover:bg-black/5">Model Y</li>
-          <li className="py-1 px-3 hover:rounded hover:bg-black/5">
-            Solar Roof
-          </li>
-          <li className="py-1 px-3 hover:rounded hover:bg-black/5">
-            Solar Panels
-          </li>
+          <a href="https://www.tesla.com/models">
+            <li className="py-1 px-3 hover:rounded hover:bg-black/5">
+              Model S
+            </li>
+          </a>
+          <a href="https://www.tesla.com/model3">
+            <li className="py-1 px-3 hover:rounded hover:bg-black/5">
+              Model 3
+            </li>
+          </a>
+          <a href="https://www.tesla.com/modelx">
+            <li className="py-1 px-3 hover:rounded hover:bg-black/5">
+              Model X
+            </li>
+          </a>
+          <a href="https://www.tesla.com/modely">
+            <li className="py-1 px-3 hover:rounded hover:bg-black/5">
+              Model Y
+            </li>
+          </a>
+          <a href="https://www.tesla.com/solarroof">
+            <li className="py-1 px-3 hover:rounded hover:bg-black/5">
+              Solar Roof
+            </li>
+          </a>
+          <a href="https://www.tesla.com/solarpanels">
+            <li className="py-1 px-3 hover:rounded hover:bg-black/5">
+              Solar Panels
+            </li>
+          </a>
+          <a href="https://www.tesla.com/powerwall">
+            <li className="py-1 px-3 hover:rounded hover:bg-black/5">
+              Powerwall
+            </li>
+          </a>
         </ul>
       </div>
       <div className="hidden lg:inline">
